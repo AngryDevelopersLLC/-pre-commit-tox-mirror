@@ -1,6 +1,6 @@
-- id: pytest
-  name: PyTest Runner
-  description: This hook uses py.test to run Python unit tests
-  entry: pre_commit_hooks/pytest.sh
+- id: tox
+  name: Tox Runner
+  description: This hook uses to run Tox
+  entry: pre_commit_hooks/tox.sh
   language: script
   files: \.py$
