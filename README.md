@@ -12,7 +12,7 @@ For prospector: see http://tox.readthedocs.io/en/latest/
 
 Add this to your `.pre-commit-config.yaml`:
 
-    -   repo: git://github.com/AngryDevelopersLLC/tox-mirror
+    -   repo: git://github.com/AngryDevelopersLLC/pre-commit-tox-mirror
         sha: ''  # Use the sha / tag you want to point at
         hooks:
         -   id: tox
